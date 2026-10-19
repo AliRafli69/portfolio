@@ -1,0 +1,429 @@
+{
+  "ali-portrait": {
+    "src": "assets/photos/alirafli-portrait-afterpromnight-fullformalsuit-withbass.jpeg",
+    "title": "Ali with his bass",
+    "caption": "After prom night, with my bass.",
+    "kind": "portrait",
+    "items": [
+      {
+        "src": "assets/photos/alirafli-portrait-afterpromnight-fullformalsuit-withbass.jpeg",
+        "type": "image",
+        "title": "After prom night, with my bass.",
+        "caption": "After prom night, with my bass.",
+        "kind": "photo",
+        "width": 3024,
+        "height": 4032
+      }
+    ]
+  },
+  "portraits": {
+    "src": "assets/photos/alirafli-portrait-faceselfie-wearingformalblacksuit-incar.jpeg",
+    "title": "A few more photos",
+    "caption": "In a suit, on the way.",
+    "kind": "landscape",
+    "items": [
+      {
+        "src": "assets/photos/alirafli-portrait-faceselfie-wearingformalblacksuit-incar.jpeg",
+        "type": "image",
+        "title": "In a suit, on the way.",
+        "caption": "In a suit, on the way.",
+        "kind": "photo",
+        "width": 959,
+        "height": 1280
+      },
+      {
+        "src": "assets/photos/alirafli-portrait-faceselfie.jpeg",
+        "type": "image",
+        "title": "A casual portrait.",
+        "caption": "A casual portrait.",
+        "kind": "photo",
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "src": "assets/photos/alirafli-portrait-mirrorselfie-withblacksuitformal.jpeg",
+        "type": "image",
+        "title": "Before heading out.",
+        "caption": "Before heading out.",
+        "kind": "photo",
+        "width": 720,
+        "height": 1280
+      }
+    ]
+  },
+  "bass-performance": {
+    "src": "assets/photos/GeminiGeneratedImage-playingbass-frontview-backgroundstudiowhite.jpg",
+    "title": "Low frequency aficionado",
+    "caption": "Bass, metal, and J-pop.",
+    "kind": "portrait",
+    "items": [
+      {
+        "src": "assets/photos/GeminiGeneratedImage-playingbass-frontview-backgroundstudiowhite.jpg",
+        "type": "image",
+        "title": "Bass, metal, and J-pop.",
+        "caption": "Bass, metal, and J-pop.",
+        "kind": "generated",
+        "width": 1536,
+        "height": 2728
+      }
+    ]
+  },
+  "music-setup": {
+    "src": "assets/photos/pov-widephoto-playingbass-withpocketmaster-andDAWopen-onlaptop.jpeg",
+    "title": "My recording setup",
+    "caption": "Bass, Pocket Master, and REAPER at my desk.",
+    "kind": "landscape",
+    "items": [
+      {
+        "src": "assets/photos/pov-widephoto-playingbass-withpocketmaster-andDAWopen-onlaptop.jpeg",
+        "type": "image",
+        "title": "Bass, Pocket Master, and REAPER at my desk.",
+        "caption": "Bass, Pocket Master, and REAPER at my desk.",
+        "kind": "photo",
+        "width": 900,
+        "height": 1600
+      }
+    ]
+  },
+  "music-gallery": {
+    "src": "assets/photos/playingbass-sideview2.jpeg",
+    "title": "Practice and performances",
+    "caption": "Another moment from practice.",
+    "kind": "landscape",
+    "items": [
+      {
+        "src": "assets/photos/playingbass-sideview2.jpeg",
+        "type": "image",
+        "title": "Another moment from practice.",
+        "caption": "Another moment from practice.",
+        "kind": "photo",
+        "width": 900,
+        "height": 1600
+      },
+      {
+        "src": "assets/photos/alirafli-portrait-2personplayingdrumandguitar-aliplayingguitar-inastudio.jpeg",
+        "type": "image",
+        "title": "Playing guitar with a friend in the studio.",
+        "caption": "Playing guitar with a friend in the studio.",
+        "kind": "photo",
+        "width": 1278,
+        "height": 1280
+      },
+      {
+        "src": "assets/photos/alirafli-video-playingbass-onstage-promnight.mp4",
+        "type": "video",
+        "title": "Playing bass on stage at prom night.",
+        "caption": "Playing bass on stage at prom night.",
+        "poster": "assets/photos/alirafli-video-playingbass-onstage-promnight-poster.jpg",
+        "width": 720,
+        "height": 1280,
+        "duration": 14.117732
+      },
+      {
+        "src": "assets/photos/playingbass-sideview.jpeg",
+        "type": "image",
+        "title": "Practising on bass.",
+        "caption": "Practising on bass.",
+        "kind": "photo",
+        "width": 900,
+        "height": 1600
+      }
+    ]
+  },
+  "yamaha-trbx505": {
+    "src": "assets/photos/new-bass-fresh-out-of-the-box.jpeg",
+    "title": "Yamaha TRBX505",
+    "caption": "My Yamaha TRBX505, fresh out of the box.",
+    "kind": "landscape",
+    "items": [
+      {
+        "src": "assets/photos/new-bass-fresh-out-of-the-box.jpeg",
+        "type": "image",
+        "title": "My Yamaha TRBX505, fresh out of the box.",
+        "caption": "My Yamaha TRBX505, fresh out of the box.",
+        "kind": "photo",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  "behringer-umc22": {
+    "src": "assets/photos/umc22-solophoto.jpeg",
+    "title": "Behringer UMC22",
+    "caption": "My Behringer UMC22 audio interface.",
+    "kind": "landscape",
+    "items": [
+      {
+        "src": "assets/photos/umc22-solophoto.jpeg",
+        "type": "image",
+        "title": "Behringer UMC22",
+        "caption": "My Behringer UMC22 audio interface.",
+        "kind": "photo",
+        "width": 1600,
+        "height": 900
+      }
+    ]
+  },
+  "sonicake-pocketmaster": {
+    "src": "assets/photos/sonicake-pocketmaster-solophoto.jpeg",
+    "title": "Sonicake Pocket Master",
+    "caption": "My Sonicake Pocket Master.",
+    "kind": "landscape",
+    "items": [
+      {
+        "src": "assets/photos/sonicake-pocketmaster-solophoto.jpeg",
+        "type": "image",
+        "title": "Sonicake Pocket Master",
+        "caption": "My Sonicake Pocket Master.",
+        "kind": "photo",
+        "width": 1600,
+        "height": 900
+      }
+    ]
+  },
+  "reaper-daw": {
+    "src": "assets/photos/reaperDAWScreenshot.png",
+    "title": "REAPER x64",
+    "caption": "A recording session in REAPER.",
+    "kind": "landscape",
+    "items": [
+      {
+        "src": "assets/photos/reaperDAWScreenshot.png",
+        "type": "image",
+        "title": "A recording session in REAPER.",
+        "caption": "A recording session in REAPER.",
+        "kind": "screenshot",
+        "width": 2880,
+        "height": 1704
+      }
+    ]
+  },
+  "mordred-telegram": {
+    "src": "assets/photos/mordred-demo.jpeg",
+    "title": "Project Mordred",
+    "caption": "A conversation with Mordred.",
+    "kind": "landscape",
+    "items": [
+      {
+        "src": "assets/photos/mordred-demo.jpeg",
+        "type": "image",
+        "title": "A conversation with Mordred.",
+        "caption": "A conversation with Mordred.",
+        "kind": "screenshot",
+        "width": 738,
+        "height": 1600
+      },
+      {
+        "src": "assets/photos/mordred-demo2.jpeg",
+        "type": "image",
+        "title": "Creating and managing reminders in Telegram.",
+        "caption": "Creating and managing reminders in Telegram.",
+        "kind": "screenshot",
+        "width": 738,
+        "height": 1600
+      }
+    ],
+    "preview": [
+      0,
+      1
+    ]
+  },
+  "glucode-app": {
+    "src": "assets/photos/glucode-demo.jpeg",
+    "title": "Glucode",
+    "caption": "Glucode nutrition scan and summary.",
+    "kind": "landscape",
+    "items": [
+      {
+        "src": "assets/photos/glucode-demo.jpeg",
+        "type": "image",
+        "title": "Glucode nutrition scan and summary.",
+        "caption": "Glucode nutrition scan and summary.",
+        "kind": "screenshot",
+        "width": 738,
+        "height": 1600
+      },
+      {
+        "src": "assets/photos/glucode-demo2.jpeg",
+        "type": "image",
+        "title": "Glucode conversation view.",
+        "caption": "Glucode conversation view.",
+        "kind": "screenshot",
+        "width": 738,
+        "height": 1600
+      },
+      {
+        "src": "assets/photos/glucode-demo3.jpeg",
+        "type": "image",
+        "title": "Glucode daily intake dashboard.",
+        "caption": "Glucode daily intake dashboard.",
+        "kind": "screenshot",
+        "width": 738,
+        "height": 1600
+      },
+      {
+        "src": "assets/photos/glucodeFigmaPrototype.png",
+        "type": "image",
+        "title": "My Figma prototype for Glucode.",
+        "caption": "My Figma prototype for Glucode.",
+        "kind": "screenshot",
+        "width": 2874,
+        "height": 1416
+      }
+    ],
+    "preview": [
+      0,
+      2
+    ]
+  },
+  "credit-risk-app": {
+    "src": "assets/photos/credit_risk_predictionapp-streamlit.jpeg",
+    "title": "Credit Risk Predictor",
+    "caption": "Credit Risk Predictor application.",
+    "kind": "landscape",
+    "items": [
+      {
+        "src": "assets/photos/credit_risk_predictionapp-streamlit.jpeg",
+        "type": "image",
+        "title": "Credit Risk Predictor application.",
+        "caption": "Credit Risk Predictor application.",
+        "kind": "screenshot",
+        "width": 1600,
+        "height": 855
+      }
+    ]
+  },
+  "visora-demo": {
+    "src": "assets/photos/visora-demo.jpeg",
+    "title": "Visora",
+    "caption": "Visora camera and object-detection view.",
+    "kind": "landscape",
+    "items": [
+      {
+        "src": "assets/photos/visora-demo.jpeg",
+        "type": "image",
+        "title": "Visora camera and object-detection view.",
+        "caption": "Visora camera and object-detection view.",
+        "kind": "screenshot",
+        "width": 659,
+        "height": 294
+      },
+      {
+        "src": "assets/photos/visora-demo2.jpeg",
+        "type": "image",
+        "title": "Another view of the Visora demonstration.",
+        "caption": "Another view of the Visora demonstration.",
+        "kind": "screenshot",
+        "width": 649,
+        "height": 298
+      }
+    ]
+  },
+  "ai-social-media": {
+    "src": "assets/photos/ai-socialmedia-team-groupphoto.jpeg",
+    "title": "BINUS AI social-media team",
+    "caption": "With the BINUS AI social-media team.",
+    "kind": "landscape",
+    "items": [
+      {
+        "src": "assets/photos/ai-socialmedia-team-groupphoto.jpeg",
+        "type": "image",
+        "title": "With the BINUS AI social-media team.",
+        "caption": "With the BINUS AI social-media team.",
+        "kind": "photo",
+        "width": 719,
+        "height": 1280
+      }
+    ]
+  },
+  "english-teaching": {
+    "src": "assets/photos/english-teaching-volunteer-groupphoto.jpeg",
+    "title": "Community English teaching",
+    "caption": "With the English-teaching community near BINUS Square.",
+    "kind": "landscape",
+    "items": [
+      {
+        "src": "assets/photos/english-teaching-volunteer-groupphoto.jpeg",
+        "type": "image",
+        "title": "With the English-teaching community near BINUS Square.",
+        "caption": "With the English-teaching community near BINUS Square.",
+        "kind": "photo",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "smk-bina-mandiri": {
+    "src": "assets/photos/smk-bina-mandiri-groupphoto.jpeg",
+    "title": "SMK Bina Mandiri outreach",
+    "caption": "Our outreach team at SMK Bina Mandiri.",
+    "kind": "landscape",
+    "items": [
+      {
+        "src": "assets/photos/smk-bina-mandiri-groupphoto.jpeg",
+        "type": "image",
+        "title": "Our outreach team at SMK Bina Mandiri.",
+        "caption": "Our outreach team at SMK Bina Mandiri.",
+        "kind": "photo",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "assets/photos/smk-bina-mandiri-presentation.jpeg.mp4",
+        "type": "video",
+        "title": "Presenting at SMK Bina Mandiri.",
+        "caption": "Presenting at SMK Bina Mandiri.",
+        "poster": "assets/photos/smk-bina-mandiri-presentation.jpeg-poster.jpg",
+        "width": 832,
+        "height": 464,
+        "duration": 9.141667
+      }
+    ]
+  },
+  "smpn111-programming": {
+    "src": "assets/photos/smpn111-memberphotogroup.jpeg",
+    "title": "SMPN 111 programming outreach",
+    "caption": "Our team at SMPN 111 Jakarta.",
+    "kind": "landscape",
+    "items": [
+      {
+        "src": "assets/photos/smpn111-memberphotogroup.jpeg",
+        "type": "image",
+        "title": "Our team at SMPN 111 Jakarta.",
+        "caption": "Our team at SMPN 111 Jakarta.",
+        "kind": "photo",
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "src": "assets/photos/smpn111-presentatingvideo.jpeg.mp4",
+        "type": "video",
+        "title": "Presenting at SMPN 111 Jakarta.",
+        "caption": "Presenting at SMPN 111 Jakarta.",
+        "poster": "assets/photos/smpn111-presentatingvideo.jpeg-poster.jpg",
+        "width": 1024,
+        "height": 576,
+        "duration": 5.0
+      }
+    ]
+  },
+  "cort-cr300": {
+    "src": "assets/photos/cort-cr300-seven-stereo.webp",
+    "title": "Cort CR300",
+    "caption": "Picking up my Cort CR300 at Seven Stereo.",
+    "kind": "landscape",
+    "items": [
+      {
+        "src": "assets/photos/cort-cr300-seven-stereo.webp",
+        "type": "image",
+        "title": "Cort CR300",
+        "caption": "Picking up my Cort CR300 at Seven Stereo.",
+        "kind": "photo",
+        "width": 1080,
+        "height": 1080
+      }
+    ],
+    "sourceUrl": "https://www.instagram.com/p/CmWR_vRLPc1/",
+    "credit": "Photo: Seven Stereo"
+  }
+}

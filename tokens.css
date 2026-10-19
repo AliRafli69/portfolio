@@ -1,0 +1,59 @@
+/* Hallmark · macrostructure: Split Studio · tone: personal recording studio
+ * genre: atmospheric · theme: custom · anchor hue: orange 43deg
+ * axes: dark / rounded-sans / warm · nav: N3 side rail · footer: Ft2 inline
+ * Hallmark · pre-emit critique: P4 H4 E4 S5 R4 V5
+ */
+:root {
+ color-scheme: dark;
+ --color-paper: oklch(18% .009 265);
+ --color-rail: oklch(16% .009 265);
+ --color-panel: oklch(22% .009 265);
+ --color-raised: oklch(27% .011 265);
+ --color-ink: oklch(95% .012 85);
+ --color-ink-2: oklch(82% .012 85);
+ --color-muted: oklch(70% .012 85);
+ --color-rule: oklch(34% .012 265);
+ --color-rule-strong: oklch(48% .012 265);
+ --color-accent: oklch(69% .18 43);
+ --color-accent-hover: oklch(75% .15 43);
+ --color-accent-ink: oklch(17% .012 43);
+ --color-focus: oklch(79% .15 60);
+ --color-strings: oklch(68% .014 85);
+ --color-error: oklch(78% .12 30);
+ --color-transparent: oklch(18% .009 265 / 0);
+ --color-shadow: oklch(10% .009 265 / .4);
+ --color-backdrop: oklch(10% .009 265 / .85);
+ --font-display: 'Plus Jakarta Sans', sans-serif;
+ --font-body: 'Plus Jakarta Sans', sans-serif;
+ --font-label: 'JetBrains Mono', monospace;
+ --space-2xs: .25rem;
+ --space-xs: .5rem;
+ --space-sm: .75rem;
+ --space-md: 1rem;
+ --space-lg: 1.5rem;
+ --space-xl: 2.5rem;
+ --space-2xl: 4rem;
+ --space-3xl: 6rem;
+ --space-4xl: 8rem;
+ --text-label: .75rem;
+ --text-small: .875rem;
+ --text-body: 1rem;
+ --text-lead: 1.5rem;
+ --text-subheading: clamp(1.25rem,1.8vw,1.5rem);
+ --text-heading: clamp(1.75rem,3vw,2.75rem);
+ --text-display: clamp(2.5rem,5vw,4.75rem);
+ --text-home: clamp(3.75rem,10vw,5.5rem);
+ --page-max: 1320px;
+ --page-gutter: clamp(1.25rem,3.5vw,3.5rem);
+ --rail-width: 200px;
+ --mobile-nav-height: 76px;
+ --radius-small: 6px;
+ --radius-media: 10px;
+ --radius-round: 999px;
+ --duration: 180ms;
+ --ease: cubic-bezier(.2,.65,.3,1);
+ --z-nav: 100;
+ --z-dropdown: 120;
+ --z-dialog-bar: 10;
+ --z-skip: 500;
+}

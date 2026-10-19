@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><style>:root{--base:oklch(18% .009 265);--ink:oklch(95% .012 85);--accent:oklch(69% .18 43)}</style><rect width="64" height="64" rx="12" fill="var(--base)"/><path d="M14 45l10-28h8l10 28h-9l-2-7h-8l-2 7zm11-14h4l-2-9z" fill="var(--ink)"/><circle cx="49" cy="41" r="5" fill="var(--accent)"/></svg>

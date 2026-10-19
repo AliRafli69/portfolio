@@ -1,0 +1,397 @@
+{
+  "projects": [
+    {
+      "id": "mordred",
+      "title": "Project Mordred",
+      "short": "A private assistant, shaped around my needs.",
+      "category": "AI systems",
+      "status": "In progress",
+      "group": "progress",
+      "date": "August 2026–present",
+      "role": "Concept · workflow design",
+      "media": "mordred-telegram",
+      "filename": "mordred-telegram.png",
+      "summary": "A private personal AI assistant with a tunable personality, with tools and features added one by one as my needs develop.",
+      "motivation": "I wanted a private personal assistant whose personality I could tune to my liking. Mordred is an ongoing project where I integrate tools and features one by one, following what I need from an assistant.",
+      "contribution": "I define the assistant’s personality and desired behaviour, develop the feature ideas, and design workflows such as conversational reminders.",
+      "approach": "Mordred uses Telegram for conversation, local model serving through LM Studio, and PostgreSQL for reminder storage. The reminder workflow detects intent and extracts a title, date, and time. The backend runs on my homelab.",
+      "outcome": "Saving and deleting reminders worked in a few manual cases. Scheduled notifications and longer-term behaviour still need testing. Web search and retrieval-augmented generation are future plans.",
+      "reflection": "I’m learning how to turn the behaviour I want from an assistant into connected features and workflows.",
+      "tools": [
+        "Telegram",
+        "LM Studio",
+        "PostgreSQL",
+        "Ubuntu",
+        "Postman"
+      ],
+      "links": [],
+      "flow": [
+        "Telegram message",
+        "Reminder intent",
+        "Title + date + time",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "id": "glucode",
+      "title": "Glucode",
+      "short": "Read the label. Keep the food card.",
+      "category": "Product & AI",
+      "status": "Completed",
+      "group": "selected",
+      "date": "February–June 2026",
+      "role": "Product concept · user flows · Figma prototype",
+      "media": "glucode-app",
+      "filename": "glucode-app.png",
+      "summary": "A nutrition-label scanner and summarizer with reusable food cards and daily intake tracking.",
+      "motivation": "Nutrition labels provide useful information, but reading and interpreting them takes effort. People may overlook how individual snacks and drinks contribute to their daily intake, especially when checking every label feels inconvenient. Glucode was designed to reduce that effort.",
+      "contribution": "I originated the concept, defined the features and workflow, and created the Figma prototype that informed the application. This was a four-person project across Applied NLP, Applied Computer Vision, and HCI.",
+      "approach": "The application scans nutrition tables, summarizes the information, and lets users save reusable food cards. Logging a saved card adds its nutrition to daily intake without scanning the same product again. My original proposal used the Gemini API; final backend and model implementation were handled by teammates.",
+      "outcome": "The team completed and demonstrated the application in class. The project included versions for the NLP/CV and HCI coursework.",
+      "reflection": "My strongest contribution was connecting the initial problem to a clear set of features and user flows.",
+      "tools": [
+        "Figma",
+        "OCR workflow",
+        "NLP workflow",
+        "Product design"
+      ],
+      "links": [
+        [
+          "Repository",
+          "https://github.com/lutfialvarop/glucode"
+        ]
+      ],
+      "flow": [
+        "Scan label",
+        "Read summary",
+        "Save food card",
+        "Log intake"
+      ]
+    },
+    {
+      "id": "credit",
+      "title": "Credit Risk Predictor",
+      "short": "From a dataset to a prediction app.",
+      "category": "Machine learning",
+      "status": "Completed",
+      "group": "selected",
+      "date": "MLOps coursework",
+      "role": "Workflow · experiments · app publication · Docker",
+      "media": "credit-risk-app",
+      "filename": "credit-risk-app.png",
+      "summary": "An individual MLOps assignment covering preprocessing, classification-model comparison, a prediction application, and Docker packaging.",
+      "motivation": "Explore the workflow from tabular borrower data to a usable credit-risk prediction application.",
+      "contribution": "I designed the workflow, ran notebooks, reviewed results, published the application, and built and ran its Docker container.",
+      "approach": "The coursework used 32,581 records with 11 input features and compared Logistic Regression, Random Forest, and XGBoost. The workflow included missing-value handling, numerical scaling, categorical encoding, and saved model artifacts for the application.",
+      "outcome": "The report documents a hosted prediction app and a successful local Docker build/run. These are coursework results, rather than evidence of use in lending decisions.",
+      "reflection": "Some preprocessing was performed before splitting, and model selection used test accuracy. These evaluation choices are important limitations and lessons for future experiments.",
+      "tools": [
+        "Python",
+        "scikit-learn",
+        "XGBoost",
+        "pandas",
+        "Docker"
+      ],
+      "links": [
+        [
+          "Repository",
+          "https://github.com/AliRafli69/creditRiskPredictor"
+        ]
+      ]
+    },
+    {
+      "id": "visora",
+      "title": "Visora",
+      "short": "Giving object detection a voice.",
+      "category": "Computer vision & audio",
+      "status": "Completed",
+      "group": "selected",
+      "date": "Semesters 2–3",
+      "role": "Text-to-speech integration · queue behaviour",
+      "media": "visora-demo",
+      "filename": "visora-demo.png",
+      "summary": "A three-person coursework project combining object detection with spoken descriptions.",
+      "motivation": "Explore software that could help blind people identify objects in front of a camera. The original idea included assistive glasses.",
+      "contribution": "I handled text-to-speech and addressed overlapping speech through queue-based playback. The same team continued the project from an AI class into Deep Learning.",
+      "approach": "The software connects object labels to speech output. A single-pending-item queue replaces older pending speech so the output can keep up with the scene. Repository code includes pretrained SpeechT5 integration.",
+      "outcome": "I observed the final software working without the earlier crashes or overlapping voices. The glasses hardware was not built, and no user study was conducted.",
+      "reflection": "Real-time systems need coordination between inference and output; speech can become unusable if every result competes for playback.",
+      "tools": [
+        "Python",
+        "Object detection",
+        "TTS",
+        "Speech queue"
+      ],
+      "links": [
+        [
+          "Repository",
+          "https://github.com/AliRafli69/Visora-2"
+        ]
+      ]
+    },
+    {
+      "id": "music",
+      "title": "Music Genre Classifier",
+      "short": "Listening for patterns.",
+      "category": "Audio ML",
+      "status": "In progress",
+      "group": "progress",
+      "date": "Ongoing personal project",
+      "role": "Audio-data exploration & preparation",
+      "media": "music-classifier",
+      "summary": "Exploring the GTZAN dataset before training a music genre classifier.",
+      "motivation": "Connect my interest in music with practical audio-data exploration and machine learning.",
+      "contribution": "This is an individual project developed with AI guidance. Current work is focused on understanding and preparing the dataset.",
+      "approach": "Saved notebook work includes audio inspection, file-readability checks, duplicate detection, and grouped train/validation/test preparation.",
+      "outcome": "The project remains at the EDA and data-preparation stage. No completed classifier or final evaluation results are recorded.",
+      "reflection": "Dataset quality and split design deserve attention before training begins.",
+      "tools": [
+        "Python",
+        "GTZAN",
+        "NumPy",
+        "Matplotlib"
+      ],
+      "links": []
+    },
+    {
+      "id": "research",
+      "title": "Spoken-Command Research",
+      "short": "Small models. Unfamiliar noise.",
+      "category": "Audio research",
+      "status": "In progress",
+      "group": "progress",
+      "date": "Research Methodology coursework",
+      "role": "Experiments in a two-student team",
+      "media": "spoken-command-research",
+      "summary": "Studying how quantization and calibration data affect spoken-command recognition under previously unseen noise.",
+      "motivation": "Understand how model compression and calibration choices interact with noisy audio conditions.",
+      "contribution": "I handle experiments; my teammate handles writing. This is ongoing coursework research.",
+      "approach": "The research workflow compares FP32, static post-training quantization, and quantization-aware training for DS-CNN keyword spotting, using clean/noisy/mixed development conditions and unseen-noise evaluation.",
+      "outcome": "Experiments and pipeline development are ongoing. I’m preparing the paper for submission to a conference as part of the Research Methodology course.",
+      "reflection": "The project is giving me experience with controlled comparisons, reproducibility, and experimental checks.",
+      "tools": [
+        "PyTorch",
+        "TorchAudio",
+        "Quantization",
+        "MFCC"
+      ],
+      "links": []
+    },
+    {
+      "id": "loan",
+      "title": "Loan Approval MLOps",
+      "short": "A second tabular ML workflow.",
+      "category": "Machine learning",
+      "status": "Completed",
+      "group": "coursework",
+      "date": "MLOps coursework",
+      "role": "Workflow · notebooks · publication · Docker",
+      "media": "loan-approval",
+      "summary": "A separate individual coursework assignment comparing loan-approval classifiers and packaging a prediction application.",
+      "motivation": "Practise the steps between a tabular dataset, model comparison, and application deployment.",
+      "contribution": "I designed the workflow, ran notebooks, reviewed results, published the app, and ran Docker, with AI implementation and debugging assistance.",
+      "approach": "The assignment used 2,000 records and compared Logistic Regression, Random Forest, Gradient Boosting, and XGBoost. The prediction workflow uses income, credit score, loan amount, and years employed.",
+      "outcome": "Completed coursework with saved model artifacts, an application, and documented deployment.",
+      "reflection": "Scaling before the split and selecting by test accuracy limit the evaluation; future workflows should separate fitting and selection more carefully.",
+      "tools": [
+        "Python",
+        "scikit-learn",
+        "XGBoost",
+        "Docker"
+      ],
+      "links": [
+        [
+          "Repository",
+          "https://github.com/AliRafli69/loan-approval-mlops"
+        ]
+      ]
+    },
+    {
+      "id": "gemastik",
+      "title": "GEMASTIK 2026 Data Mining: Paddy-Drying Prediction",
+      "short": "Weather, simulation, and machine learning.",
+      "category": "Competition research",
+      "status": "Competition submission",
+      "group": "competition",
+      "date": "GEMASTIK 2026",
+      "role": "Research concept · paper writing",
+      "media": "gemastik-paper",
+      "filename": "gemastik-paper.png",
+      "summary": "A team project exploring weather-based paddy-drying prediction with physics simulation and machine learning.",
+      "motivation": "Explore how weather information could support decisions around drying harvested paddy.",
+      "contribution": "I developed the idea and wrote the paper in a three-person competition team.",
+      "approach": "The team paper combines weather windows and physics-generated drying labels with machine-learning comparisons. Reported predictions concern simulated targets, rather than validated field measurements.",
+      "outcome": "Our three-person team passed BINUS internal selection and represented BINUS at GEMASTIK 2026 with this paddy-drying prediction project.",
+      "reflection": "The concept needs real drying measurements before field performance or agricultural impact could be established.",
+      "tools": [
+        "Research design",
+        "Weather data",
+        "Simulation",
+        "Paper writing"
+      ],
+      "links": []
+    },
+    {
+      "id": "homelab",
+      "title": "Ubuntu Homelab",
+      "short": "A second life for an older laptop.",
+      "category": "Personal infrastructure",
+      "status": "Ongoing",
+      "group": "personal",
+      "date": "Personal setup",
+      "role": "Guided setup · service operation · experimentation",
+      "media": "homelab-server",
+      "summary": "An HP Pavilion 14-bf0xx repurposed as an Ubuntu host for personal services.",
+      "motivation": "Have a practical place to explore self-hosting and keep personal services running.",
+      "contribution": "I operate and experiment with the setup, using guidance when needed for configuration and troubleshooting.",
+      "approach": "Ubuntu Server CLI hosts Mordred’s backend, Minecraft, and an image-generation interface connected to the ComfyUI API, with remote access through Tailscale.",
+      "outcome": "A working environment for learning about services and deployment. Hardware details are listed on the About page.",
+      "reflection": "A personal server gives me concrete reasons to learn about configuration, storage, and troubleshooting.",
+      "tools": [
+        "Ubuntu Server CLI",
+        "Tailscale",
+        "ComfyUI API"
+      ],
+      "links": [
+        [
+          "See my setup",
+          "about.html#homelab"
+        ]
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "brain-staff",
+      "title": "BRAIN · Creative Media",
+      "date": "Semester 4–present",
+      "group": "creative",
+      "role": "Staff",
+      "summary": "Design and video contributions in the organization’s first committee generation.",
+      "detail": "I use Canva, Figma, and CapCut for creative-media work. My involvement includes organization activities and event preparation. Exact joining month is not recorded.",
+      "media": "brain-creative",
+      "photo": "Creative-media samples"
+    },
+    {
+      "id": "brain-expo",
+      "title": "BRAIN Organization EXPO",
+      "date": "15 August & 2 September 2026",
+      "group": "creative",
+      "role": "Creative-media contribution",
+      "summary": "Templates, posts, and simple promotional videos for the organization’s EXPO.",
+      "detail": "Preparation began in late June. I contributed templates/posts and simple video editing for the completed events.",
+      "media": "brain-expo",
+      "photo": "EXPO images or design samples"
+    },
+    {
+      "id": "brain-welcome",
+      "title": "BRAIN Welcoming Party",
+      "date": "25 September 2026",
+      "group": "creative",
+      "role": "Equipment preparation",
+      "summary": "Helped prepare equipment for the organization’s welcoming event.",
+      "detail": "Preparation began in late July, ahead of the September event.",
+      "media": "brain-welcoming",
+      "photo": "Welcoming Party"
+    },
+    {
+      "id": "robotics",
+      "title": "BINUS Robotics Cup",
+      "date": "August–December 2026",
+      "group": "creative",
+      "role": "Live Report PIC · Media Publication and Documentation · Design",
+      "summary": "Contributing to media preparation and design for BINUS Robotics Cup, with the main event on 10 December 2026.",
+      "detail": "I’m involved in the Media Publication and Documentation department and the Design department. My work includes posting-plan edits, promotional short videos, and compilation videos, alongside preparation for live reporting. Committee work runs from August to December 2026; the main event is on 10 December 2026.",
+      "media": "brain-robotics",
+      "photo": "Competition preparation"
+    },
+    {
+      "id": "ai-social",
+      "title": "BINUS AI Social Media",
+      "date": "First recorded post · 4 October 2024",
+      "group": "creative",
+      "role": "Content contributor",
+      "summary": "Educational posts, an on-camera appearance, and video-content involvement.",
+      "detail": "I created informative Instagram content, appeared in one video, and became involved with the video-content team. There is no formal role title recorded; the first post date is not a confirmed joining date.",
+      "media": "ai-social-media",
+      "photo": "AI social-media work"
+    },
+    {
+      "id": "smk",
+      "title": "College Preparation Outreach",
+      "date": "28 November 2024",
+      "group": "community",
+      "role": "Organizer & presenter · SMK Bina Mandiri, Bekasi",
+      "summary": "Helped students explore choosing a major and preparing for college.",
+      "detail": "In a five-person team, we found the school, arranged permission, and developed the presentation theme. I selected materials, prepared the presentation, and personally presented.",
+      "media": "smk-bina-mandiri",
+      "photo": "School outreach"
+    },
+    {
+      "id": "smp",
+      "title": "Introduction to C Programming",
+      "date": "15 May 2025",
+      "group": "community",
+      "role": "Presenter · SMPN 111 Jakarta",
+      "summary": "Prepared material and introduced students to C programming.",
+      "detail": "I selected the material, created the PowerPoint slides, and personally presented the introductory programming session.",
+      "media": "smpn111-programming",
+      "photo": "Programming outreach"
+    },
+    {
+      "id": "english",
+      "title": "Community English Teaching",
+      "date": "30 April–4 June 2025",
+      "group": "community",
+      "role": "Volunteer teacher · Near BINUS Square",
+      "summary": "Wednesday English teaching for learners from elementary to high-school age.",
+      "detail": "I personally taught a mixed-age group in a community near BINUS Square. Learner counts and exact session-attendance totals are not recorded.",
+      "media": "english-teaching",
+      "photo": "Community teaching"
+    },
+    {
+      "id": "gemastik-exp",
+      "title": "GEMASTIK 2026 Data Mining",
+      "date": "2026",
+      "group": "competition",
+      "role": "Concept & paper writing",
+      "summary": "Represented BINUS with a three-person team and a paddy-drying prediction project.",
+      "detail": "I developed the concept and wrote the paper. Our team passed the university’s internal selection and represented BINUS at GEMASTIK 2026.",
+      "media": "gemastik-paper",
+      "photo": "Competition project",
+      "project": "gemastik"
+    }
+  ],
+  "gear": [
+    {
+      "id": "yamaha-trbx505",
+      "title": "Yamaha TRBX505",
+      "type": "Main instrument · five-string bass",
+      "description": "Bass is my main instrument. This is the five-string I use for covers and practice."
+    },
+    {
+      "id": "cort-cr300",
+      "title": "Cort CR300",
+      "type": "Guitar",
+      "description": "The guitar side of my setup, alongside bass and recording."
+    },
+    {
+      "id": "behringer-umc22",
+      "title": "Behringer UMC22",
+      "type": "Audio interface",
+      "description": "My interface for the recording setup."
+    },
+    {
+      "id": "sonicake-pocketmaster",
+      "title": "Sonicake Pocket Master",
+      "type": "Effects processor",
+      "description": "For exploring tones and effects."
+    },
+    {
+      "id": "reaper-daw",
+      "title": "REAPER x64",
+      "type": "DAW",
+      "description": "Where I work on recordings, EQ, and mixing."
+    }
+  ]
+}

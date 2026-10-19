@@ -1,0 +1,26 @@
+# Local CV intake, source records, and preview artifacts
+/tmp/
+/.hallmark/
+/CV_CHAT_HANDOFF.md
+/CV_INTAKE_NOTES.md
+/MUHAMMAD_RAFLI_HAFID_MASTER_PROFILE.md
+/*_EVIDENCE.md
+/IMAGE_GUIDE.md
+/PROTOTYPE_NOTES.md
+/*.pdf
+
+# Publish only the downloadable CVs from output/
+/output/*
+!/output/pdf/
+/output/pdf/*
+!/output/pdf/Muhammad_Rafli_Hafid_CV_English.pdf
+!/output/pdf/Muhammad_Rafli_Hafid_CV_Indonesia.pdf
+
+# Secrets and OS/editor artifacts
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
