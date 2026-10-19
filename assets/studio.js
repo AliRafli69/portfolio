@@ -70,14 +70,12 @@ document.addEventListener('click',async e=>{
 
 let projectFilter='all';
 function filterProjects(){
- const query=($('#project-search')?.value||'').trim().toLowerCase();let count=0;
- $$('.project-row').forEach(row=>{row.hidden=(projectFilter!=='all'&&row.dataset.projectCategory!==projectFilter)||(query&&!row.dataset.search.includes(query));if(!row.hidden)count++;});
+ let count=0;
+ $$('.project-row').forEach(row=>{row.hidden=projectFilter!=='all'&&row.dataset.projectCategory!==projectFilter;if(!row.hidden)count++;});
  $$('.project-group').forEach(group=>group.hidden=!$('.project-row:not([hidden])',group));
  if($('#project-count'))$('#project-count').textContent=`${count} project${count===1?'':'s'}`;
- if($('#project-empty'))$('#project-empty').hidden=count>0;
 }
 $$('[data-project-filter]').forEach(b=>b.addEventListener('click',()=>{projectFilter=b.dataset.projectFilter;$$('[data-project-filter]').forEach(other=>other.setAttribute('aria-pressed',String(other===b)));filterProjects();}));
-$('#project-search')?.addEventListener('input',filterProjects);
 
 const experienceToggle=$('#expand-experiences');
 function updateExperienceToggle(){const visible=$$('.experience-row:not([hidden]) .experience-detail');const open=visible.length>0&&visible.every(d=>d.open);if(experienceToggle){experienceToggle.setAttribute('aria-expanded',String(open));experienceToggle.innerHTML=(open?'Collapse all':'Expand all')+' <span aria-hidden="true">'+(open?'−':'+')+'</span>';}}
